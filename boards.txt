@@ -48,6 +48,12 @@ gd_mbed_f30x.menu.upload_method.jlinkMethod.upload.options=
 gd_mbed_f30x.menu.upload_method.jlinkMethod.build.upload_flags=-DCONFIG_MAPLE_MINI_NO_DISABLE_DEBUG=1 -DSERIAL_USB -DGENERIC_BOOTLOADER
 gd_mbed_f30x.menu.upload_method.jlinkMethod.upload.tool=jlink_upload
 
+gd_mbed_f30x.menu.upload_method.jlinkMethod=PicoProbe (SWD)
+gd_mbed_f30x.menu.upload_method.jlinkMethod.upload.protocol=picoprobe
+gd_mbed_f30x.menu.upload_method.jlinkMethod.upload.options=
+gd_mbed_f30x.menu.upload_method.jlinkMethod.build.upload_flags=-DCONFIG_MAPLE_MINI_NO_DISABLE_DEBUG=1 -DSERIAL_USB -DGENERIC_BOOTLOADER
+gd_mbed_f30x.menu.upload_method.jlinkMethod.upload.tool=picoprobe_upload
+
 # Optimizations
 gd_mbed_f30x.menu.opt.osstd=Smallest (default)
 gd_mbed_f30x.menu.opt.o1std=Fast (-O1)
@@ -107,6 +113,12 @@ gd_eval_f303.menu.upload_method.jlinkMethod.upload.options=
 gd_eval_f303.menu.upload_method.jlinkMethod.build.upload_flags=-DCONFIG_MAPLE_MINI_NO_DISABLE_DEBUG=1 -DSERIAL_USB -DGENERIC_BOOTLOADER
 gd_eval_f303.menu.upload_method.jlinkMethod.upload.tool=jlink_upload
 
+gd_eval_f303.menu.upload_method.jlinkMethod=PicoProbe (SWD)
+gd_eval_f303.menu.upload_method.jlinkMethod.upload.protocol=picoprobe
+gd_eval_f303.menu.upload_method.jlinkMethod.upload.options=
+gd_eval_f303.menu.upload_method.jlinkMethod.build.upload_flags=-DCONFIG_MAPLE_MINI_NO_DISABLE_DEBUG=1 -DSERIAL_USB -DGENERIC_BOOTLOADER
+gd_eval_f303.menu.upload_method.jlinkMethod.upload.tool=picoprobe_upload
+
 # Optimizations
 gd_eval_f303.menu.opt.osstd=Smallest (default)
 gd_eval_f303.menu.opt.o1std=Fast (-O1)
@@ -164,6 +176,12 @@ gd_mbed_f4xx.menu.upload_method.jlinkMethod.upload.protocol=jlink
 gd_mbed_f4xx.menu.upload_method.jlinkMethod.upload.options=
 gd_mbed_f4xx.menu.upload_method.jlinkMethod.build.upload_flags=-DCONFIG_MAPLE_MINI_NO_DISABLE_DEBUG=1 -DSERIAL_USB -DGENERIC_BOOTLOADER
 gd_mbed_f4xx.menu.upload_method.jlinkMethod.upload.tool=jlink_upload
+
+gd_mbed_f4xx.menu.upload_method.jlinkMethod=PicoProbe (SWD)
+gd_mbed_f4xx.menu.upload_method.jlinkMethod.upload.protocol=picoprobe
+gd_mbed_f4xx.menu.upload_method.jlinkMethod.upload.options=
+gd_mbed_f4xx.menu.upload_method.jlinkMethod.build.upload_flags=-DCONFIG_MAPLE_MINI_NO_DISABLE_DEBUG=1 -DSERIAL_USB -DGENERIC_BOOTLOADER
+gd_mbed_f4xx.menu.upload_method.jlinkMethod.upload.tool=picoprobe_upload
 
 # Optimizations
 gd_mbed_f4xx.menu.opt.osstd=Smallest (default)
@@ -562,6 +580,12 @@ gd_generic_gd32f3x0.menu.upload_method.jlinkMethod.upload.options=
 gd_generic_gd32f3x0.menu.upload_method.jlinkMethod.build.upload_flags=-DCONFIG_MAPLE_MINI_NO_DISABLE_DEBUG=1 -DSERIAL_USB -DGENERIC_BOOTLOADER
 gd_generic_gd32f3x0.menu.upload_method.jlinkMethod.upload.tool=jlink_upload
 
+gd_generic_gd32f3x0.menu.upload_method.jlinkMethod=PicoProbe (SWD)
+gd_generic_gd32f3x0.menu.upload_method.jlinkMethod.upload.protocol=picoprobe
+gd_generic_gd32f3x0.menu.upload_method.jlinkMethod.upload.options=
+gd_generic_gd32f3x0.menu.upload_method.jlinkMethod.build.upload_flags=-DCONFIG_MAPLE_MINI_NO_DISABLE_DEBUG=1 -DSERIAL_USB -DGENERIC_BOOTLOADER
+gd_generic_gd32f3x0.menu.upload_method.jlinkMethod.upload.tool=picoprobe_upload
+
 gd_generic_gd32f3x0.menu.upload_method.dfuUtilMethod=dfu-util (DFU - STMDuino bootloader)
 gd_generic_gd32f3x0.menu.upload_method.dfuUtilMethod.upload.protocol=dfu
 gd_generic_gd32f3x0.menu.upload_method.dfuUtilMethod.upload.options=
@@ -637,6 +661,12 @@ gd_generic_gd32f30x.menu.upload_method.jlinkMethod.upload.protocol=jlink
 gd_generic_gd32f30x.menu.upload_method.jlinkMethod.upload.options=
 gd_generic_gd32f30x.menu.upload_method.jlinkMethod.build.upload_flags=-DCONFIG_MAPLE_MINI_NO_DISABLE_DEBUG=1 -DSERIAL_USB -DGENERIC_BOOTLOADER
 gd_generic_gd32f30x.menu.upload_method.jlinkMethod.upload.tool=jlink_upload
+
+gd_generic_gd32f30x.menu.upload_method.jlinkMethod=PicoProbe (SWD)
+gd_generic_gd32f30x.menu.upload_method.jlinkMethod.upload.protocol=picoprobe
+gd_generic_gd32f30x.menu.upload_method.jlinkMethod.upload.options=
+gd_generic_gd32f30x.menu.upload_method.jlinkMethod.build.upload_flags=-DCONFIG_MAPLE_MINI_NO_DISABLE_DEBUG=1 -DSERIAL_USB -DGENERIC_BOOTLOADER
+gd_generic_gd32f30x.menu.upload_method.jlinkMethod.upload.tool=picoprobe_upload
 
 gd_generic_gd32f30x.menu.upload_method.dfuUtilMethod=dfu-util (DFU - STMDuino bootloader)
 gd_generic_gd32f30x.menu.upload_method.dfuUtilMethod.upload.protocol=dfu
@@ -847,6 +877,12 @@ gd_generic_gd32e23x.menu.upload_method.jlinkMethod.upload.protocol=jlink
 gd_generic_gd32e23x.menu.upload_method.jlinkMethod.upload.options=
 gd_generic_gd32e23x.menu.upload_method.jlinkMethod.build.upload_flags=-DCONFIG_MAPLE_MINI_NO_DISABLE_DEBUG=1 -DSERIAL_USB -DGENERIC_BOOTLOADER
 gd_generic_gd32e23x.menu.upload_method.jlinkMethod.upload.tool=jlink_upload
+
+gd_generic_gd32e23x.menu.upload_method.jlinkMethod=PicoProbe (SWD)
+gd_generic_gd32e23x.menu.upload_method.jlinkMethod.upload.protocol=picoprobe
+gd_generic_gd32e23x.menu.upload_method.jlinkMethod.upload.options=
+gd_generic_gd32e23x.menu.upload_method.jlinkMethod.build.upload_flags=-DCONFIG_MAPLE_MINI_NO_DISABLE_DEBUG=1 -DSERIAL_USB -DGENERIC_BOOTLOADER
+gd_generic_gd32e23x.menu.upload_method.jlinkMethod.upload.tool=picoprobe_upload
 
 gd_generic_gd32e23x.menu.upload_method.dfuUtilMethod=dfu-util (DFU - STMDuino bootloader)
 gd_generic_gd32e23x.menu.upload_method.dfuUtilMethod.upload.protocol=dfu
@@ -1241,6 +1277,12 @@ gd_generic_gd32f1x0.menu.upload_method.jlinkMethod.upload.protocol=jlink
 gd_generic_gd32f1x0.menu.upload_method.jlinkMethod.upload.options=
 gd_generic_gd32f1x0.menu.upload_method.jlinkMethod.build.upload_flags=-DCONFIG_MAPLE_MINI_NO_DISABLE_DEBUG=1 -DSERIAL_USB -DGENERIC_BOOTLOADER
 gd_generic_gd32f1x0.menu.upload_method.jlinkMethod.upload.tool=jlink_upload
+
+gd_generic_gd32f1x0.menu.upload_method.jlinkMethod=PicoProbe (SWD)
+gd_generic_gd32f1x0.menu.upload_method.jlinkMethod.upload.protocol=picoprobe
+gd_generic_gd32f1x0.menu.upload_method.jlinkMethod.upload.options=
+gd_generic_gd32f1x0.menu.upload_method.jlinkMethod.build.upload_flags=-DCONFIG_MAPLE_MINI_NO_DISABLE_DEBUG=1 -DSERIAL_USB -DGENERIC_BOOTLOADER
+gd_generic_gd32f1x0.menu.upload_method.jlinkMethod.upload.tool=picoprobe_upload
 
 gd_generic_gd32f1x0.menu.upload_method.dfuUtilMethod=dfu-util (DFU - STMDuino bootloader)
 gd_generic_gd32f1x0.menu.upload_method.dfuUtilMethod.upload.protocol=dfu

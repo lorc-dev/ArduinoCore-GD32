@@ -135,6 +135,13 @@ tools.jlink_upload.upload.params.verbose=-d2
 tools.jlink_upload.upload.params.quiet=n
 tools.jlink_upload.upload.pattern="{path}/{cmd}" -s "{path}/scripts" -f interface/jlink.cfg -c "transport select swd" -c "set CPUTAPID 0" -f {upload.openocd_script} -c "program {{build.path}/{build.project_name}.elf} verify reset; shutdown"
 
+##picoprobe_upload
+tools.picoprobe_upload.cmd=openocd
+tools.picoprobe_upload.path={runtime.tools.xpack-openocd-0.11.0-1.path}/bin
+tools.picoprobe_upload.upload.params.verbose=-d2
+tools.picoprobe_upload.upload.params.quiet=n
+tools.picoprobe_upload.upload.pattern="{path}/{cmd}" -s "{path}/scripts" -f interface/cmsis-dap.cfg -c "adapter speed 5000" -c "transport select swd" -c "set CPUTAPID 0" -f {upload.openocd_script} -c "program {{build.path}/{build.project_name}.elf} verify reset; shutdown"
+
 #
 # DFU_UTIL
 #
